@@ -107,7 +107,7 @@ cd /d D:\RecruitFlow-AI
 python -m pytest tests -q
 ```
 
-The most recently user-verified suite before this documentation update had **195 passing tests**. The documentation checks added in Day 5 Task 3 are separate and should be run before claiming a new total.
+The most recently user-verified suite before this documentation update had **260 passing tests**. The documentation checks added in Day 5 Task 3 are separate and should be run before claiming a new total.
 
 ## Evaluation methodology and results
 
