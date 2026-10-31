@@ -1,0 +1,32 @@
+
+Job Title: Junior AI/ML Engineer
+Department: Artificial Intelligence
+Employment Type: Full-Time
+
+Job Summary:
+We are seeking a Junior AI/ML Engineer to develop,
+train, evaluate, and deploy machine learning models.
+
+Required Skills:
+- Python
+- Machine Learning
+- Scikit-learn
+- Pandas
+- SQL
+
+Preferred Skills:
+- TensorFlow or PyTorch
+- FastAPI
+- Docker
+- Git
+
+Minimum Experience:
+1 year of relevant experience, including internships
+or professional projects.
+
+Responsibilities:
+- Develop and evaluate machine learning models.
+- Clean and preprocess datasets.
+- Build and maintain ML pipelines.
+- Collaborate with engineering teams.
+- Document experiments and results.

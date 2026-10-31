@@ -1,0 +1,11 @@
+candidate_id,status_match,skills_match,experience_match,fully_correct,expected_status,manual_status
+C01,True,True,True,True,Meets requirements,Meets requirements
+C02,True,False,True,False,Missing requirements,Missing requirements
+C03,True,False,False,False,Missing requirements,Missing requirements
+C04,True,True,True,True,Meets requirements,Meets requirements
+C05,True,False,False,False,Missing requirements,Missing requirements
+C06,True,False,False,False,Needs clarification,Needs clarification
+C07,True,False,False,False,Needs clarification,Needs clarification
+C08,True,False,True,False,Missing requirements,Missing requirements
+C09,True,False,False,False,Needs clarification,Needs clarification
+C10,True,False,False,False,Needs clarification,Needs clarification

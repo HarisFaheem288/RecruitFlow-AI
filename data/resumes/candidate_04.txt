@@ -1,0 +1,5 @@
+Candidate ID: C04
+Experience: 3 years
+Skills: Python, Machine Learning, Scikit-learn,
+Pandas, SQL, Docker, FastAPI, PyTorch, Git.
+Projects: Deployed ML models through REST APIs.

@@ -1,0 +1,45 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and testing
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated files
+outputs/demo/*.mp4
+outputs/demo/*.mov
+outputs/demo/*.mkv
+outputs/demo/*.webm
+
+# Local editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Separate Angular project - not part of RecruitFlow AI
+/global-setting/
+
+# Node.js dependencies and build outputs
+node_modules/
+dist/
+.angular/

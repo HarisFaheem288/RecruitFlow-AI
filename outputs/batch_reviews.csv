@@ -1,0 +1,69 @@
+﻿candidate_id,source_file,job_id,file_type,matched_skills,missing_required_skills,experience_status,review_status,approval_status,warnings,evidence_notes,processing_timestamp
+C01,candidate_01.txt,JOB001,TXT,Python; Machine Learning; Scikit-learn; Pandas; SQL,,Meets,Meets requirements,Pending,,"Python: Skills: Python, Machine Learning, Scikit-learn,
+Machine Learning: Skills: Python, Machine Learning, Scikit-learn,
+Scikit-learn: Skills: Python, Machine Learning, Scikit-learn,
+Pandas: Pandas, SQL, TensorFlow, Git.
+SQL: Pandas, SQL, TensorFlow, Git.
+Experience status: Meets
+Experience duration: 2 years",2026-10-27T14:24:25.548465+00:00
+C02,candidate_02.txt,JOB001,TXT,Python; Machine Learning; Scikit-learn; Pandas,SQL,Meets,Missing requirements,Pending,,"Python: Skills: Python, Machine Learning, Scikit-learn,
+Machine Learning: Skills: Python, Machine Learning, Scikit-learn,
+Scikit-learn: Skills: Python, Machine Learning, Scikit-learn,
+Pandas: Pandas, Git.
+SQL: not evidenced
+Experience status: Meets
+Experience duration: 1.5 years",2026-10-27T14:24:25.548465+00:00
+C03,candidate_03.txt,JOB001,TXT,Python; Pandas,Machine Learning; Scikit-learn; SQL,Meets,Missing requirements,Pending,,"Python: Skills: Python, Pandas, Git.
+Machine Learning: not evidenced
+Scikit-learn: not evidenced
+Pandas: Skills: Python, Pandas, Git.
+SQL: not evidenced
+Experience status: Meets
+Experience duration: 2 years",2026-10-27T14:24:25.549464+00:00
+C04,candidate_04.txt,JOB001,TXT,Python; Machine Learning; Scikit-learn; Pandas; SQL,,Meets,Meets requirements,Pending,,"Python: Skills: Python, Machine Learning, Scikit-learn,
+Machine Learning: Skills: Python, Machine Learning, Scikit-learn,
+Scikit-learn: Skills: Python, Machine Learning, Scikit-learn,
+Pandas: Pandas, SQL, Docker, FastAPI, PyTorch, Git.
+SQL: Pandas, SQL, Docker, FastAPI, PyTorch, Git.
+Experience status: Meets
+Experience duration: 3 years",2026-10-27T14:24:25.549464+00:00
+C05,candidate_05.txt,JOB001,TXT,Python; Machine Learning; Scikit-learn; Pandas; SQL,,Below minimum,Missing requirements,Pending,,"Python: Skills: Python, Machine Learning, Scikit-learn,
+Machine Learning: Skills: Python, Machine Learning, Scikit-learn,
+Scikit-learn: Skills: Python, Machine Learning, Scikit-learn,
+Pandas: Pandas, SQL.
+SQL: Pandas, SQL.
+Experience status: Below minimum
+Experience duration: 0.25 years",2026-10-27T14:24:25.549464+00:00
+C06,candidate_06.txt,JOB001,TXT,Python; Machine Learning; Pandas; SQL,Scikit-learn,Unknown,Needs clarification,Pending,Experience duration is not explicitly stated.,"Python: Skills: Python, Machine Learning, SQL, Pandas.
+Machine Learning: Skills: Python, Machine Learning, SQL, Pandas.
+Scikit-learn: not evidenced
+Pandas: Skills: Python, Machine Learning, SQL, Pandas.
+SQL: Skills: Python, Machine Learning, SQL, Pandas.
+Experience status: Unknown",2026-10-27T14:24:25.550463+00:00
+C07,candidate_07.txt,JOB001,TXT,Python; Machine Learning; Scikit-learn; Pandas; SQL,,Conflicting,Needs clarification,Pending,Multiple experience durations were found; human review is required.,"Python: Skills: Python, Machine Learning, Scikit-learn,
+Machine Learning: Summary: Claims 3 years of ML experience.
+Scikit-learn: Skills: Python, Machine Learning, Scikit-learn,
+Pandas: Pandas, SQL.
+SQL: Pandas, SQL.
+Experience status: Conflicting",2026-10-27T14:24:25.550463+00:00
+C08,candidate_08.txt,JOB001,TXT,Python,Machine Learning; Scikit-learn; Pandas; SQL,Meets,Missing requirements,Pending,,"Python: Skills: Python.
+Machine Learning: not evidenced
+Scikit-learn: not evidenced
+Pandas: not evidenced
+SQL: not evidenced
+Experience status: Meets
+Experience duration: 1 years",2026-10-27T14:24:25.551477+00:00
+C09,candidate_09.txt,JOB001,TXT,Python; Machine Learning; Pandas; SQL,Scikit-learn,Meets,Missing requirements,Pending,,"Python: Skills: Python, Machine Learning, Pandas, SQL.
+Machine Learning: Skills: Python, Machine Learning, Pandas, SQL.
+Scikit-learn: not evidenced
+Pandas: Skills: Python, Machine Learning, Pandas, SQL.
+SQL: Skills: Python, Machine Learning, Pandas, SQL.
+Experience status: Meets
+Experience duration: 2 years",2026-10-27T14:24:25.551477+00:00
+C10,candidate_10.txt,JOB001,TXT,Python; Scikit-learn; Pandas; SQL,Machine Learning,Meets,Missing requirements,Pending,,"Python: Skills: Python, Pandas, SQL, Scikit-learn.
+Machine Learning: not evidenced
+Scikit-learn: Skills: Python, Pandas, SQL, Scikit-learn.
+Pandas: Skills: Python, Pandas, SQL, Scikit-learn.
+SQL: Skills: Python, Pandas, SQL, Scikit-learn.
+Experience status: Meets
+Experience duration: 2 years",2026-10-27T14:24:25.552491+00:00

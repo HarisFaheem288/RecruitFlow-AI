@@ -1,0 +1,5 @@
+Candidate ID: C02
+Experience: 1.5 years
+Skills: Python, Machine Learning, Scikit-learn,
+Pandas, Git.
+Projects: Built predictive analytics pipelines.

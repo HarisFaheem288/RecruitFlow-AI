@@ -1,0 +1,62 @@
+{
+  "evaluation_type": "agreement_with_synthetic_reference_expectations",
+  "recorded_at_utc": "2026-10-28T10:46:42.689326+00:00",
+  "candidate_count": 10,
+  "reference_status_counts": {
+    "Meets requirements": 2,
+    "Missing requirements": 4,
+    "Needs clarification": 4
+  },
+  "manual_status_counts": {
+    "Missing requirements": 6,
+    "Meets requirements": 3,
+    "Needs clarification": 1
+  },
+  "automated_status_counts": {
+    "Meets requirements": 2,
+    "Missing requirements": 6,
+    "Needs clarification": 2
+  },
+  "metrics": {
+    "manual_status": {
+      "matches": 5,
+      "total": 10,
+      "agreement_percent": 50.0
+    },
+    "automated_status": {
+      "matches": 8,
+      "total": 10,
+      "agreement_percent": 80.0
+    },
+    "manual_experience": {
+      "matches": 2,
+      "total": 10,
+      "agreement_percent": 20.0
+    },
+    "automated_experience": {
+      "matches": 9,
+      "total": 10,
+      "agreement_percent": 90.0
+    },
+    "manual_missing_skills": {
+      "matches": 1,
+      "total": 10,
+      "agreement_percent": 10.0
+    },
+    "automated_missing_skills": {
+      "matches": 10,
+      "total": 10,
+      "agreement_percent": 100.0
+    }
+  },
+  "manual_automated_status_agreements": 6,
+  "candidates_with_any_disagreement": 10,
+  "manual_evidence_notes_present": 10,
+  "automated_evidence_notes_present": 10,
+  "limitations": [
+    "Reference labels are scenario expectations, not independently adjudicated ground truth.",
+    "Evidence presence does not establish factual support or quality; inspect cited resume passages manually.",
+    "Only ten synthetic resumes; no claims about real-world screening accuracy or fairness.",
+    "Manual decisions are self-recorded; no independent observer verified them."
+  ]
+}

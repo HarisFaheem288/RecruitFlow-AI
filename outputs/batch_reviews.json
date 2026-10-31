@@ -1,0 +1,308 @@
+{
+  "summary": {
+    "job_id": "JOB001",
+    "total_files": 10,
+    "successful": 10,
+    "failed": 0,
+    "review_status_counts": {
+      "Meets requirements": 2,
+      "Missing requirements": 6,
+      "Needs clarification": 2
+    },
+    "human_approval_required": true
+  },
+  "source_folder": "D:\\RecruitFlow-AI\\data\\resumes",
+  "reviews": [
+    {
+      "source_file": "candidate_01.txt",
+      "document": {
+        "file_type": "TXT",
+        "character_count": 157,
+        "page_count": null,
+        "warnings": []
+      },
+      "review": {
+        "candidate_id": "C01",
+        "job_id": "JOB001",
+        "matched_skills": [
+          "Python",
+          "Machine Learning",
+          "Scikit-learn",
+          "Pandas",
+          "SQL"
+        ],
+        "missing_required_skills": [],
+        "experience_status": "Meets",
+        "review_status": "Meets requirements",
+        "evidence_notes": "Python: Skills: Python, Machine Learning, Scikit-learn,\nMachine Learning: Skills: Python, Machine Learning, Scikit-learn,\nScikit-learn: Skills: Python, Machine Learning, Scikit-learn,\nPandas: Pandas, SQL, TensorFlow, Git.\nSQL: Pandas, SQL, TensorFlow, Git.\nExperience status: Meets\nExperience duration: 2 years",
+        "warnings": [],
+        "approval_status": "Pending",
+        "human_corrections": [],
+        "processing_timestamp": "2026-10-27T14:24:25.548465+00:00"
+      }
+    },
+    {
+      "source_file": "candidate_02.txt",
+      "document": {
+        "file_type": "TXT",
+        "character_count": 148,
+        "page_count": null,
+        "warnings": []
+      },
+      "review": {
+        "candidate_id": "C02",
+        "job_id": "JOB001",
+        "matched_skills": [
+          "Python",
+          "Machine Learning",
+          "Scikit-learn",
+          "Pandas"
+        ],
+        "missing_required_skills": [
+          "SQL"
+        ],
+        "experience_status": "Meets",
+        "review_status": "Missing requirements",
+        "evidence_notes": "Python: Skills: Python, Machine Learning, Scikit-learn,\nMachine Learning: Skills: Python, Machine Learning, Scikit-learn,\nScikit-learn: Skills: Python, Machine Learning, Scikit-learn,\nPandas: Pandas, Git.\nSQL: not evidenced\nExperience status: Meets\nExperience duration: 1.5 years",
+        "warnings": [],
+        "approval_status": "Pending",
+        "human_corrections": [],
+        "processing_timestamp": "2026-10-27T14:24:25.548465+00:00"
+      }
+    },
+    {
+      "source_file": "candidate_03.txt",
+      "document": {
+        "file_type": "TXT",
+        "character_count": 112,
+        "page_count": null,
+        "warnings": []
+      },
+      "review": {
+        "candidate_id": "C03",
+        "job_id": "JOB001",
+        "matched_skills": [
+          "Python",
+          "Pandas"
+        ],
+        "missing_required_skills": [
+          "Machine Learning",
+          "Scikit-learn",
+          "SQL"
+        ],
+        "experience_status": "Meets",
+        "review_status": "Missing requirements",
+        "evidence_notes": "Python: Skills: Python, Pandas, Git.\nMachine Learning: not evidenced\nScikit-learn: not evidenced\nPandas: Skills: Python, Pandas, Git.\nSQL: not evidenced\nExperience status: Meets\nExperience duration: 2 years",
+        "warnings": [],
+        "approval_status": "Pending",
+        "human_corrections": [],
+        "processing_timestamp": "2026-10-27T14:24:25.549464+00:00"
+      }
+    },
+    {
+      "source_file": "candidate_04.txt",
+      "document": {
+        "file_type": "TXT",
+        "character_count": 177,
+        "page_count": null,
+        "warnings": []
+      },
+      "review": {
+        "candidate_id": "C04",
+        "job_id": "JOB001",
+        "matched_skills": [
+          "Python",
+          "Machine Learning",
+          "Scikit-learn",
+          "Pandas",
+          "SQL"
+        ],
+        "missing_required_skills": [],
+        "experience_status": "Meets",
+        "review_status": "Meets requirements",
+        "evidence_notes": "Python: Skills: Python, Machine Learning, Scikit-learn,\nMachine Learning: Skills: Python, Machine Learning, Scikit-learn,\nScikit-learn: Skills: Python, Machine Learning, Scikit-learn,\nPandas: Pandas, SQL, Docker, FastAPI, PyTorch, Git.\nSQL: Pandas, SQL, Docker, FastAPI, PyTorch, Git.\nExperience status: Meets\nExperience duration: 3 years",
+        "warnings": [],
+        "approval_status": "Pending",
+        "human_corrections": [],
+        "processing_timestamp": "2026-10-27T14:24:25.549464+00:00"
+      }
+    },
+    {
+      "source_file": "candidate_05.txt",
+      "document": {
+        "file_type": "TXT",
+        "character_count": 135,
+        "page_count": null,
+        "warnings": []
+      },
+      "review": {
+        "candidate_id": "C05",
+        "job_id": "JOB001",
+        "matched_skills": [
+          "Python",
+          "Machine Learning",
+          "Scikit-learn",
+          "Pandas",
+          "SQL"
+        ],
+        "missing_required_skills": [],
+        "experience_status": "Below minimum",
+        "review_status": "Missing requirements",
+        "evidence_notes": "Python: Skills: Python, Machine Learning, Scikit-learn,\nMachine Learning: Skills: Python, Machine Learning, Scikit-learn,\nScikit-learn: Skills: Python, Machine Learning, Scikit-learn,\nPandas: Pandas, SQL.\nSQL: Pandas, SQL.\nExperience status: Below minimum\nExperience duration: 0.25 years",
+        "warnings": [],
+        "approval_status": "Pending",
+        "human_corrections": [],
+        "processing_timestamp": "2026-10-27T14:24:25.549464+00:00"
+      }
+    },
+    {
+      "source_file": "candidate_06.txt",
+      "document": {
+        "file_type": "TXT",
+        "character_count": 128,
+        "page_count": null,
+        "warnings": []
+      },
+      "review": {
+        "candidate_id": "C06",
+        "job_id": "JOB001",
+        "matched_skills": [
+          "Python",
+          "Machine Learning",
+          "Pandas",
+          "SQL"
+        ],
+        "missing_required_skills": [
+          "Scikit-learn"
+        ],
+        "experience_status": "Unknown",
+        "review_status": "Needs clarification",
+        "evidence_notes": "Python: Skills: Python, Machine Learning, SQL, Pandas.\nMachine Learning: Skills: Python, Machine Learning, SQL, Pandas.\nScikit-learn: not evidenced\nPandas: Skills: Python, Machine Learning, SQL, Pandas.\nSQL: Skills: Python, Machine Learning, SQL, Pandas.\nExperience status: Unknown",
+        "warnings": [
+          "Experience duration is not explicitly stated."
+        ],
+        "approval_status": "Pending",
+        "human_corrections": [],
+        "processing_timestamp": "2026-10-27T14:24:25.550463+00:00"
+      }
+    },
+    {
+      "source_file": "candidate_07.txt",
+      "document": {
+        "file_type": "TXT",
+        "character_count": 166,
+        "page_count": null,
+        "warnings": []
+      },
+      "review": {
+        "candidate_id": "C07",
+        "job_id": "JOB001",
+        "matched_skills": [
+          "Python",
+          "Machine Learning",
+          "Scikit-learn",
+          "Pandas",
+          "SQL"
+        ],
+        "missing_required_skills": [],
+        "experience_status": "Conflicting",
+        "review_status": "Needs clarification",
+        "evidence_notes": "Python: Skills: Python, Machine Learning, Scikit-learn,\nMachine Learning: Summary: Claims 3 years of ML experience.\nScikit-learn: Skills: Python, Machine Learning, Scikit-learn,\nPandas: Pandas, SQL.\nSQL: Pandas, SQL.\nExperience status: Conflicting",
+        "warnings": [
+          "Multiple experience durations were found; human review is required."
+        ],
+        "approval_status": "Pending",
+        "human_corrections": [],
+        "processing_timestamp": "2026-10-27T14:24:25.550463+00:00"
+      }
+    },
+    {
+      "source_file": "candidate_08.txt",
+      "document": {
+        "file_type": "TXT",
+        "character_count": 76,
+        "page_count": null,
+        "warnings": []
+      },
+      "review": {
+        "candidate_id": "C08",
+        "job_id": "JOB001",
+        "matched_skills": [
+          "Python"
+        ],
+        "missing_required_skills": [
+          "Machine Learning",
+          "Scikit-learn",
+          "Pandas",
+          "SQL"
+        ],
+        "experience_status": "Meets",
+        "review_status": "Missing requirements",
+        "evidence_notes": "Python: Skills: Python.\nMachine Learning: not evidenced\nScikit-learn: not evidenced\nPandas: not evidenced\nSQL: not evidenced\nExperience status: Meets\nExperience duration: 1 years",
+        "warnings": [],
+        "approval_status": "Pending",
+        "human_corrections": [],
+        "processing_timestamp": "2026-10-27T14:24:25.551477+00:00"
+      }
+    },
+    {
+      "source_file": "candidate_09.txt",
+      "document": {
+        "file_type": "TXT",
+        "character_count": 132,
+        "page_count": null,
+        "warnings": []
+      },
+      "review": {
+        "candidate_id": "C09",
+        "job_id": "JOB001",
+        "matched_skills": [
+          "Python",
+          "Machine Learning",
+          "Pandas",
+          "SQL"
+        ],
+        "missing_required_skills": [
+          "Scikit-learn"
+        ],
+        "experience_status": "Meets",
+        "review_status": "Missing requirements",
+        "evidence_notes": "Python: Skills: Python, Machine Learning, Pandas, SQL.\nMachine Learning: Skills: Python, Machine Learning, Pandas, SQL.\nScikit-learn: not evidenced\nPandas: Skills: Python, Machine Learning, Pandas, SQL.\nSQL: Skills: Python, Machine Learning, Pandas, SQL.\nExperience status: Meets\nExperience duration: 2 years",
+        "warnings": [],
+        "approval_status": "Pending",
+        "human_corrections": [],
+        "processing_timestamp": "2026-10-27T14:24:25.551477+00:00"
+      }
+    },
+    {
+      "source_file": "candidate_10.txt",
+      "document": {
+        "file_type": "TXT",
+        "character_count": 145,
+        "page_count": null,
+        "warnings": []
+      },
+      "review": {
+        "candidate_id": "C10",
+        "job_id": "JOB001",
+        "matched_skills": [
+          "Python",
+          "Scikit-learn",
+          "Pandas",
+          "SQL"
+        ],
+        "missing_required_skills": [
+          "Machine Learning"
+        ],
+        "experience_status": "Meets",
+        "review_status": "Missing requirements",
+        "evidence_notes": "Python: Skills: Python, Pandas, SQL, Scikit-learn.\nMachine Learning: not evidenced\nScikit-learn: Skills: Python, Pandas, SQL, Scikit-learn.\nPandas: Skills: Python, Pandas, SQL, Scikit-learn.\nSQL: Skills: Python, Pandas, SQL, Scikit-learn.\nExperience status: Meets\nExperience duration: 2 years",
+        "warnings": [],
+        "approval_status": "Pending",
+        "human_corrections": [],
+        "processing_timestamp": "2026-10-27T14:24:25.552491+00:00"
+      }
+    }
+  ],
+  "errors": []
+}

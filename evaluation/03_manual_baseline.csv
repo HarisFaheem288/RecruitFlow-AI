@@ -1,0 +1,11 @@
+﻿candidate_id,manual_time_seconds,manual_status,missing_required_skills,experience_status,notes
+C01,86.3,Meets requirements,None,Meets,All skills present
+C02,1.8,Missing requirements,"SQl,Scikit",Meets,not mentioned
+C03,40.2,Missing requirements,"CV,DL",Not mentioned,skiils miss
+C04,34.5,Meets requirements,None,Meets,All skills present
+C05,28.8,Missing requirements,"ML,Pandas",c,experience undefined
+C06,48.7,Needs clarification,Numpy,Meets,skills miss
+C07,69.7,Needs clarification,Scikit,unknown,experience undefined
+C08,78.2,Missing requirements,"SQl,Scikit",Meets,skills miss
+C09,41.4,Needs clarification,Pandas,Need review,experience undefined
+C10,25.3,Needs clarification,GenAI,Meets,skiils miss

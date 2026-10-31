@@ -1,0 +1,11 @@
+candidate_id,filename,review_status,experience_status,matched_skills,missing_required_skills,evidence_notes,duration_seconds,reviewed_at_utc
+C01,candidate_01.txt,Missing requirements,Meets,SQL,ML,None,34.09,2026-10-28T10:29:39.142655+00:00
+C02,candidate_02.txt,Missing requirements,Below minimum,SQL,ML,None,19.54,2026-10-28T10:30:02.741458+00:00
+C03,candidate_03.txt,Missing requirements,Conflicting,DL,SQL,None,25.28,2026-10-28T10:30:30.145072+00:00
+C04,candidate_04.txt,Meets requirements,Needs review,ML,DL,None,16.92,2026-10-28T10:30:51.460825+00:00
+C05,candidate_05.txt,Missing requirements,Needs review,SQL,Ml,None,11.01,2026-10-28T10:31:03.895021+00:00
+C06,candidate_06.txt,Missing requirements,Conflicting,None,CV,None,8.37,2026-10-28T10:31:15.527713+00:00
+C07,candidate_07.txt,Needs clarification,Below minimum,None,None,None',7.49,2026-10-28T10:31:24.941226+00:00
+C08,candidate_08.txt,Meets requirements,Unknown,Sql,LLM,None,10.75,2026-10-28T10:31:37.795256+00:00
+C09,candidate_09.txt,Missing requirements,Below minimum,None,None,None,6.79,2026-10-28T10:31:47.436602+00:00
+C10,candidate_10.txt,Meets requirements,Needs review,Deep Learning',SQL,None,12.92,2026-10-28T10:32:02.861929+00:00

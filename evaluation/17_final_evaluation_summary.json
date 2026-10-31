@@ -1,0 +1,109 @@
+{
+  "report_type": "recruitflow_day4_final_evaluation",
+  "generated_at_utc": "2026-10-28T10:55:09.626533+00:00",
+  "candidate_count": 10,
+  "test_suite_last_reported": "172 passed (user-reported Day 4 Task 4; rerun tests to verify current state)",
+  "manual_baseline": {
+    "total_seconds": 153.16,
+    "average_seconds": 15.316,
+    "self_recorded": true
+  },
+  "automated_benchmark": {
+    "mean_batch_seconds": 0.003918,
+    "measured_runs": 10,
+    "failed_files": 0
+  },
+  "timing": {
+    "measured_stage_ratio": 39091.37,
+    "scopes_equivalent": false,
+    "end_to_end_recruiter_time_savings_percent": null
+  },
+  "reference_agreement": {
+    "status": {
+      "manual": {
+        "matches": 5,
+        "total": 10,
+        "agreement_percent": 50.0
+      },
+      "automated": {
+        "matches": 8,
+        "total": 10,
+        "agreement_percent": 80.0
+      }
+    },
+    "experience": {
+      "manual": {
+        "matches": 2,
+        "total": 10,
+        "agreement_percent": 20.0
+      },
+      "automated": {
+        "matches": 9,
+        "total": 10,
+        "agreement_percent": 90.0
+      }
+    },
+    "missing_skills": {
+      "manual": {
+        "matches": 1,
+        "total": 10,
+        "agreement_percent": 10.0
+      },
+      "automated": {
+        "matches": 10,
+        "total": 10,
+        "agreement_percent": 100.0
+      }
+    }
+  },
+  "disagreements": {
+    "candidate_count": 10,
+    "candidate_ids": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10"
+    ],
+    "flag_counts": {
+      "automated_experience": 1,
+      "automated_status": 2,
+      "manual_experience": 8,
+      "manual_missing_skills": 9,
+      "manual_status": 5,
+      "manual_vs_automated_status": 4
+    }
+  },
+  "evidence_note_presence": {
+    "manual": 10,
+    "automated": 10,
+    "factual_quality_verified": false
+  },
+  "recommendations": [
+    "Manually inspect all disagreement cases, especially automated screening-status mismatches.",
+    "Verify evidence notes against the original resume text; presence alone is insufficient.",
+    "Measure complete upload-to-human-approval time before claiming recruiter time savings.",
+    "Evaluate on more diverse, consented and appropriately de-identified resumes before production use.",
+    "Retain human oversight and audit history; do not auto-hire or auto-reject."
+  ],
+  "limitations": [
+    "Only ten synthetic resumes; reference expectations are not independently adjudicated ground truth.",
+    "Manual baseline is self-recorded and not independently observed.",
+    "Automated time excludes upload, UI, storage, export, corrections and human approval.",
+    "Local repeated runs may benefit from caches; measured stages are not equivalent.",
+    "Evidence-note presence is not evidence factuality, fairness or reliability.",
+    "No end-to-end recruiter time-savings percentage is established."
+  ],
+  "source_files": [
+    "evaluation/09_genuine_baseline_summary.json",
+    "evaluation/10_automated_benchmark_summary.json",
+    "evaluation/12_accuracy_summary.json",
+    "evaluation/15_performance_comparison.json",
+    "evaluation/14_disagreements.csv"
+  ]
+}

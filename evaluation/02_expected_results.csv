@@ -1,0 +1,11 @@
+﻿candidate_id,scenario,expected_status,missing_required_skills,experience_status
+C01,All requirements met,Meets requirements,None,Meets
+C02,Missing SQL,Missing requirements,SQL,Meets
+C03,Multiple missing skills,Missing requirements,Machine Learning;Scikit-learn;SQL,Meets
+C04,Strong candidate,Meets requirements,None,Meets
+C05,Insufficient experience,Missing requirements,None,Below minimum
+C06,Unspecified experience,Needs clarification,Scikit-learn,Unknown
+C07,Contradictory experience,Needs clarification,None,Conflicting
+C08,Incomplete qualifications,Missing requirements,Machine Learning;Scikit-learn;Pandas;SQL,Meets
+C09,Incomplete resume,Needs clarification,Scikit-learn,Meets
+C10,Transferable experience,Needs clarification,Machine Learning,Needs review

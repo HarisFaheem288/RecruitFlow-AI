@@ -1,0 +1,4 @@
+Candidate ID: C06
+Experience: Not specified
+Skills: Python, Machine Learning, SQL, Pandas.
+Projects: Worked on AI-related tasks.

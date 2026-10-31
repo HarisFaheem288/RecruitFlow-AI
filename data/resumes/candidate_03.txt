@@ -1,0 +1,4 @@
+Candidate ID: C03
+Experience: 2 years
+Skills: Python, Pandas, Git.
+Projects: Automated data reporting workflows.

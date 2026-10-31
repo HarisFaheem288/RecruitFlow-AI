@@ -1,0 +1,4 @@
+Candidate ID: C10
+Experience: 2 years in data analytics
+Skills: Python, Pandas, SQL, Scikit-learn.
+Projects: Built predictive forecasting models.

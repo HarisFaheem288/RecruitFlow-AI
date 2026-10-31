@@ -1,0 +1,5 @@
+Candidate ID: C05
+Experience: 3 months
+Skills: Python, Machine Learning, Scikit-learn,
+Pandas, SQL.
+Projects: University ML coursework.

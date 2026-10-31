@@ -1,0 +1,5 @@
+Candidate ID: C07
+Summary: Claims 3 years of ML experience.
+Employment History: 6 months as an ML intern.
+Skills: Python, Machine Learning, Scikit-learn,
+Pandas, SQL.

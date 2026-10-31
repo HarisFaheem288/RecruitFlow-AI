@@ -1,0 +1,20 @@
+
+# RecruitFlow AI - Python Dependencies
+
+# User interface
+streamlit>=1.35,<2.0
+
+# PDF extraction
+PyMuPDF>=1.24,<2.0
+
+# Word document extraction
+python-docx>=1.1,<2.0
+
+# Data handling and reporting
+pandas>=2.2,<3.0
+
+# Environment configuration
+python-dotenv>=1.0,<2.0
+
+# Automated testing
+pytest>=8.0,<10.0

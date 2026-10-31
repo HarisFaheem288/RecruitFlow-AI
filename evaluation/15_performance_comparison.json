@@ -1,0 +1,74 @@
+{
+  "comparison_type": "day4_measured_stage_comparison",
+  "recorded_at_utc": "2026-10-28T10:50:26.838849+00:00",
+  "candidate_count": 10,
+  "manual": {
+    "measurement_scope": "Self-recorded independent human review of synthetic resumes",
+    "total_seconds": 153.16,
+    "seconds_per_resume": 15.316,
+    "independently_observed": false
+  },
+  "automated": {
+    "measurement_scope": "Local batch extraction and rule-based screening only; excludes UI, file upload, report export, SQLite, recruiter corrections and approval.",
+    "mean_batch_seconds": 0.003918,
+    "mean_seconds_per_resume": 0.0003918,
+    "measured_runs": 10,
+    "failed_files": 0
+  },
+  "timing_comparison": {
+    "manual_to_automated_measured_stage_ratio": 39091.37,
+    "scopes_equivalent": false,
+    "end_to_end_recruiter_time_savings_percent": null,
+    "explanation": "The ratio compares different measurement scopes and is not a validated end-to-end recruiter productivity gain."
+  },
+  "reference_agreement": {
+    "status": {
+      "manual": {
+        "matches": 5,
+        "total": 10,
+        "agreement_percent": 50.0
+      },
+      "automated": {
+        "matches": 8,
+        "total": 10,
+        "agreement_percent": 80.0
+      },
+      "difference_percentage_points": 30.0
+    },
+    "experience": {
+      "manual": {
+        "matches": 2,
+        "total": 10,
+        "agreement_percent": 20.0
+      },
+      "automated": {
+        "matches": 9,
+        "total": 10,
+        "agreement_percent": 90.0
+      },
+      "difference_percentage_points": 70.0
+    },
+    "missing_skills": {
+      "manual": {
+        "matches": 1,
+        "total": 10,
+        "agreement_percent": 10.0
+      },
+      "automated": {
+        "matches": 10,
+        "total": 10,
+        "agreement_percent": 100.0
+      },
+      "difference_percentage_points": 90.0
+    }
+  },
+  "limitations": [
+    "Ten synthetic resumes; findings are not representative of production recruiting.",
+    "Reference expectations are not independently adjudicated ground truth.",
+    "Manual review times and decisions are self-recorded, not independently observed.",
+    "Automated timings exclude upload, UI, database writes, exports, human verification and approval.",
+    "Repeated local benchmark runs may benefit from OS caches and warm-up effects.",
+    "Evidence-note presence is not proof of evidence quality; human inspection is required.",
+    "No end-to-end time savings percentage is claimed."
+  ]
+}

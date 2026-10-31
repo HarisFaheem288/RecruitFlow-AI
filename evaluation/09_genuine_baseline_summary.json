@@ -1,0 +1,16 @@
+{
+  "baseline_type": "timed_independent_human_review",
+  "reviewed_count": 10,
+  "expected_count": 10,
+  "complete": true,
+  "total_seconds": 153.16,
+  "average_seconds": 15.32,
+  "min_seconds": 6.79,
+  "max_seconds": 34.09,
+  "status_counts": {
+    "Meets requirements": 3,
+    "Missing requirements": 6,
+    "Needs clarification": 1
+  },
+  "note": "Self-recorded manual review times; not independently observed or verified."
+}
